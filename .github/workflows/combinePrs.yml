@@ -87,7 +87,7 @@ jobs:
                     console.log('PR does not have statusCheckRollup, but mergeability is: ' + mergeable);
                     if(mergeable !== 'MERGEABLE'){
                       console.log('Discarding ' + branch + ' with mergeability: ' + mergeable);
-                      statusOK = false;
+                      statusOK = true;
                     }
                   }
                 }
